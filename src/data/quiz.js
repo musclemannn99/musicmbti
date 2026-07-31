@@ -7,18 +7,18 @@ export const AXES = [
 
 export const QUESTIONS = [
   { id: 'q1', a: { text: '나는 한국 음악을 주로 듣는다', letter: 'K' }, b: { text: '나는 해외 음악을 주로 듣는다', letter: 'G' } },
-  { id: 'q2', a: { text: '빌보드 핫100보다 우리 오빠(언니) 첫주 음반 판매량이 더 궁금하다', letter: 'K' }, b: { text: '우리 오빠들 앨범보다 빌보드 1위가 더 궁금하다', letter: 'G' } },
-  { id: 'q3', a: { text: '팝송 가사는 그냥 분위기로 대충 떼운다', letter: 'K' }, b: { text: '팝송 3절까지 영어 발음 완벽 떼창 가능(뇌피셜)', letter: 'G' } },
-  { id: 'q4', a: { text: '내 플레이리스트는 한국어 가사가 8할', letter: 'K' }, b: { text: '내 플레이리스트는 영어(외국어) 가사가 8할', letter: 'G' } },
-  { id: 'q5', a: { text: '노래방 18번은 발라드 또는 트로트', letter: 'K' }, b: { text: '노래방 가면 팝송 원곡 키로 승부 본다', letter: 'G' } },
+  { id: 'q2', a: { text: '멜론 탑 100이 짱이지', letter: 'K' }, b: { text: '가끔 빌보드 1위가 궁금하다', letter: 'G' } },
+  { id: 'q3', a: { text: '외국 노래는 그냥 흘려 듣는다', letter: 'K' }, b: { text: '영어 가사도 2절까지 완벽 떼창 가능', letter: 'G' } },
+  { id: 'q4', a: { text: '나는 한국 발라드에 가슴이 뛴다 (ex. 임창정 - 소주한잔)', letter: 'K' }, b: { text: '나는 힙한 외국 알앤비의 그루브를 즐긴다', letter: 'G' } },
+  { id: 'q5', a: { text: '뽕끼있는 kpop이 좋다 (ex. 티아라 - 롤리폴리)', letter: 'K' }, b: { text: '나는 UK개러지, 하우스, 드럼앤베이스 등의 리듬에 반응한다', letter: 'G' } },
 
   { id: 'q6', a: { text: '나는 노래를 들을 때 멜로디보다 가사를 중시한다', letter: 'L' }, b: { text: '나는 노래를 들을 때 멜로디가 좋으면 가사가 구려도 상관없다', letter: 'M' } },
-  { id: 'q7', a: { text: '나는 한국 발라드에 가슴이 뛴다 (ex. 소주한잔)', letter: 'L' }, b: { text: '나는 UK개러지, 하우스, 드럼앤베이스 등의 리듬에 반응한다', letter: 'M' } },
-  { id: 'q8', a: { text: '노래 듣다가 필사 노트에 가사 적어본 적 있다', letter: 'L' }, b: { text: '가사는 몰라도 훅만 알면 떼창 가능', letter: 'M' } },
-  { id: 'q9', a: { text: '이별 노래는 가사가 꼭 내 얘기 같아서 운다', letter: 'L' }, b: { text: '이별 노래도 비트만 좋으면 클럽 앤썸으로 듣는다', letter: 'M' } },
-  { id: 'q10', a: { text: '노래방 갈 때 감정선이 중요해서 부르다 만다', letter: 'L' }, b: { text: '노래방은 부르기 쉬운 후렴구 위주로 승부', letter: 'M' } },
+  { id: 'q7', a: { text: '가사에 욕설이 있으면 잘 듣지 않는다', letter: 'L' }, b: { text: '노래와 어울린다면 그냥 듣는다', letter: 'M' } },
+  { id: 'q8', a: { text: '마음에 꽂힌 가사를 적어본 적 있다', letter: 'L' }, b: { text: '애초에 가사를 잘 안찾아본다', letter: 'M' } },
+  { id: 'q9', a: { text: '가사가 내 얘기 같아서 울어본 적 있다', letter: 'L' }, b: { text: '슬픈 노래도 출퇴근길에 들을 수 있다', letter: 'M' } },
+  { id: 'q10', a: { text: '나의 이야기를 하는 싱어송라이터가 좋다', letter: 'L' }, b: { text: '어떤 노래든 잘 부르고 소화하는 보컬리스트가 좋다', letter: 'M' } },
 
-  { id: 'q11', a: { text: '무대, 라이브를 잘하는 가수가 좋다', letter: 'D' }, b: { text: '편하게 들을 수 있는 이지리스닝 음원이 좋다', letter: 'E' } },
+  { id: 'q11', a: { text: '무대, 라이브를 잘하는 가수가 좋다', letter: 'D' }, b: { text: '편하게 들을 수 있는 이지리스닝 음원 강자 아티스트가 좋다', letter: 'E' } },
   { id: 'q12', a: { text: '상황에 맞춰 노래를 선곡하는 것을 좋아한다', letter: 'D' }, b: { text: '그냥 재생목록에 있는 노래 랜덤 재생', letter: 'E' } },
   { id: 'q13', a: { text: '앨범 단위의 음악 감상을 선호한다', letter: 'D' }, b: { text: '앨범 통째로 다 듣는건 부담스러…', letter: 'E' } },
   { id: 'q14', a: { text: '나는 락페스티벌 가는 걸 좋아한다', letter: 'D' }, b: { text: '락페에서 떼창하다 입냄새 공격당함… 집에서 쾌적하게 듣지뭐', letter: 'E' } },
@@ -26,8 +26,8 @@ export const QUESTIONS = [
   { id: 'q16', a: { text: '콘서트 가는 돈은 안아깝다', letter: 'D' }, b: { text: '그 돈으로 갖고 싶은 걸 산다', letter: 'E' } },
 
   { id: 'q17', a: { text: '한국 음악 중에서는 아이돌 음악을 많이 듣는다', letter: 'I' }, b: { text: '한국 음악 중에서는 밴드 음악을 많이 듣는다', letter: 'B' } },
-  { id: 'q18', a: { text: '나는 5세대 아이돌의 이름을 3개 이상 말할 수 있다', letter: 'I' }, b: { text: '가장 마지막에 좋아한 아이돌은 소녀시대', letter: 'B' } },
-  { id: 'q19', a: { text: '나는 한로로를 좋아한다', letter: 'B' }, b: { text: '나는 한로로를 좋아했다…', letter: 'I' } },
+  { id: 'q18', a: { text: '나는 5세대 아이돌의 이름을 3개 이상 말할 수 있다', letter: 'I' }, b: { text: '가장 마지막에 좋아한 아이돌은 소녀시대, 원더걸스', letter: 'B' } },
+  { id: 'q19', a: { text: '나는 한로로를 좋아한다', letter: 'I' }, b: { text: '나는 한로로를 좋아했다…', letter: 'B' } },
   { id: 'q20', a: { text: '요새 유행하는 노래가 뭔지 알고 있다', letter: 'I' }, b: { text: '나는 나만의 길을 간다', letter: 'B' } },
   { id: 'q21', a: { text: '남들이 모를만한 외국 밴드 몇개는 알고 있다', letter: 'B' }, b: { text: '내 취향은 대중적인 편이다', letter: 'I' } },
   { id: 'q22', a: { text: '난 역시 비주류야 킥킥', letter: 'B' }, b: { text: '나는 유명한 노래 위주로 듣는다', letter: 'I' } },
@@ -35,14 +35,6 @@ export const QUESTIONS = [
   { id: 'q24', a: { text: '모르는 음악을 디깅하는 것을 즐긴다', letter: 'B' }, b: { text: '누군가 만들어놓은 플레이리스트가 있는데 왜 찾지? 에센셜 들어', letter: 'I' } },
   { id: 'q25', a: { text: '누군가 나에게 티켓을 준다면, 나는 아이유 콘서트에 간다', letter: 'I' }, b: { text: '누군가 나에게 티켓을 준다면, 나는 바밍 타이거 콘서트에 간다', letter: 'B' } },
   { id: 'q26', a: { text: '내 최애 아티스트를 남들이 모르면, 뿌듯하다', letter: 'B' }, b: { text: '내 최애 아티스트를 남들이 모르면, 아쉽다…', letter: 'I' } },
-]
-
-// 결과 유형에는 반영되지 않는 재미용 보너스 문항 (배지로만 결과 화면에 표시)
-export const BONUS_QUESTIONS = [
-  { id: 'bonus1', a: { text: '코노에서 신곡 위주로 부른다', badge: '디깅형 코노러' }, b: { text: '코노에 가면 인기차트를 훑는다', badge: '차트형 코노러' } },
-  { id: 'bonus2', a: { text: '나는 좋아하는 특정 장르가 명확하다', badge: '확고한 취향러' }, b: { text: '나는 아직 무슨 음악 취향을 가지고 있는지 잘 모르겠다', badge: '탐색 중인 귀' } },
-  { id: 'bonus3', a: { text: '한국인이라면 역시, 티아라 - 롤리폴리', badge: '롤리폴리 세대' }, b: { text: '한국인이라면 역시, 성시경 - 거리에서', badge: '거리에서파' } },
-  { id: 'bonus4', a: { text: '나는 SM', badge: 'SM파' }, b: { text: '나는 JYP', badge: 'JYP파' } },
 ]
 
 export const RESULTS = {

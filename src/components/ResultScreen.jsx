@@ -1,4 +1,4 @@
-export default function ResultScreen({ code, resultData, axisBreakdown, badges, onRestart }) {
+export default function ResultScreen({ code, resultData, axisBreakdown, onRestart }) {
   return (
     <div className="screen result-screen">
       <p className="eyebrow">당신의 뮤직 MBTI는</p>
@@ -27,16 +27,6 @@ export default function ResultScreen({ code, resultData, axisBreakdown, badges, 
           </div>
         ))}
       </div>
-
-      {badges.length > 0 && (
-        <div className="badges">
-          {badges.map((badge) => (
-            <span className="badge" key={badge}>
-              {badge}
-            </span>
-          ))}
-        </div>
-      )}
 
       <button className="btn primary" onClick={onRestart}>
         다시하기 🔁
