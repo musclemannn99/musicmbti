@@ -41,8 +41,7 @@ export const QUESTIONS = [
 export const BONUS_QUESTIONS = [
   { id: 'bonus1', a: { text: '코노에서 신곡 위주로 부른다', badge: '디깅형 코노러' }, b: { text: '코노에 가면 인기차트를 훑는다', badge: '차트형 코노러' } },
   { id: 'bonus2', a: { text: '나는 좋아하는 특정 장르가 명확하다', badge: '확고한 취향러' }, b: { text: '나는 아직 무슨 음악 취향을 가지고 있는지 잘 모르겠다', badge: '탐색 중인 귀' } },
-  // TODO: 두번째 선택지는 사용자가 추후 전달 예정 — 받는 대로 텍스트만 교체
-  { id: 'bonus3', a: { text: '한국인이라면 역시, 티아라 - 왜이러니', badge: '왜이러니 국룰 인정' }, b: { text: '(추가 예정)', badge: '(추가 예정)' } },
+  { id: 'bonus3', a: { text: '한국인이라면 역시, 티아라 - 롤리폴리', badge: '롤리폴리 세대' }, b: { text: '한국인이라면 역시, 성시경 - 거리에서', badge: '거리에서파' } },
   { id: 'bonus4', a: { text: '나는 SM', badge: 'SM파' }, b: { text: '나는 JYP', badge: 'JYP파' } },
 ]
 
