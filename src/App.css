@@ -74,6 +74,43 @@
   background: linear-gradient(90deg, #ffb454, var(--accent-2));
 }
 
+.quiz-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.back-arrow,
+.back-arrow-spacer {
+  width: 32px;
+  height: 32px;
+  flex: none;
+}
+
+.back-arrow {
+  background: var(--card-bg);
+  color: var(--text-h);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 18px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-arrow:hover:not(:disabled) {
+  border-color: var(--accent-border);
+  color: var(--accent);
+}
+
+.back-arrow:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
 .options {
   width: 100%;
   display: flex;
@@ -98,6 +135,11 @@
 .btn.option:hover {
   border-color: var(--accent-border);
   transform: translateY(-2px);
+}
+
+.btn.option.selected {
+  border-color: var(--accent);
+  background: var(--accent-bg);
 }
 
 .vs {

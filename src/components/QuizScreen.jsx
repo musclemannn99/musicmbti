@@ -6,6 +6,7 @@ export default function QuizScreen({ questions, onComplete, sectionLabel }) {
 
   const question = questions[index]
   const progress = Math.round((index / questions.length) * 100)
+  const picked = answers[question.id]
 
   function handleSelect(choice) {
     const next = { ...answers, [question.id]: choice }
@@ -17,20 +18,42 @@ export default function QuizScreen({ questions, onComplete, sectionLabel }) {
     }
   }
 
+  function handleBack() {
+    if (index > 0) setIndex(index - 1)
+  }
+
   return (
     <div className="screen quiz-screen">
       <div className="progress-track">
         <div className="progress-fill" style={{ width: `${progress}%` }} />
       </div>
-      <p className="eyebrow">
-        {sectionLabel} {index + 1} / {questions.length}
-      </p>
+      <div className="quiz-header">
+        <button
+          type="button"
+          className="btn back-arrow"
+          onClick={handleBack}
+          disabled={index === 0}
+          aria-label="이전 문항"
+        >
+          ‹
+        </button>
+        <p className="eyebrow">
+          {sectionLabel} {index + 1} / {questions.length}
+        </p>
+        <span className="back-arrow-spacer" />
+      </div>
       <div className="options">
-        <button className="btn option" onClick={() => handleSelect('a')}>
+        <button
+          className={`btn option${picked === 'a' ? ' selected' : ''}`}
+          onClick={() => handleSelect('a')}
+        >
           {question.a.text}
         </button>
         <div className="vs">or</div>
-        <button className="btn option" onClick={() => handleSelect('b')}>
+        <button
+          className={`btn option${picked === 'b' ? ' selected' : ''}`}
+          onClick={() => handleSelect('b')}
+        >
           {question.b.text}
         </button>
       </div>
